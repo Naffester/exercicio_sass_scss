@@ -1,28 +1,28 @@
 header {
-    background-color: $primary-color;
-    height: $header-height;
-    .container {
+  background-color: $primary-color;
+  height: $header-height;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .branding img {
+    max-height: $header-height;
+  }
+  nav {
+    ul.menu {
       display: flex;
-      justify-content: space-between;
-      align-items: center;
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-    .branding img {
-      max-height: $header-height;
-    }
-    nav {
-      ul.menu {
-        display: flex;
-        list-style: none;
-        li {
-          margin-left: 20px;
-          a {
-            color: white;
-            text-decoration: none;
-            font-weight: 700;
-          }
+      list-style: none;
+      li {
+        margin-left: 20px;
+        a {
+          color: white;
+          text-decoration: none;
+          font-weight: 700;
         }
       }
     }
   }
+}

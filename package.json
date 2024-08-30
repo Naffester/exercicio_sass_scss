@@ -1,0 +1,17 @@
+{
+  "name": "exercicio_sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass ./projeto/scss/main.scss ./build/styles/main.css",
+    "watch": "sass --watch ./projeto/scss/main.scss:./build/styles/main.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.77.8"
+  }
+}
